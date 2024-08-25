@@ -32,7 +32,7 @@ wget https://raw.githubusercontent.com/DmitriiDidenko/allora-worker-node1/main/a
 ```
 - Check logs:
 ```bash
-docker logs worker
+docker logs -f worker
 ```
 - Atlast you will see some logs like this :
 
