@@ -30,6 +30,10 @@ rm -rf allora.sh allora-chain/ basic-coin-prediction-node/
 ```bash
 wget https://raw.githubusercontent.com/DmitriiDidenko/allora-worker-node1/main/allora.sh && chmod +x allora.sh && ./allora.sh
 ```
+- Check logs:
+```bash
+docker logs worker
+```
 - Atlast you will see some logs like this :
 
 ![image](https://github.com/user-attachments/assets/d3000af7-663a-44c6-8282-f408d9185891)
