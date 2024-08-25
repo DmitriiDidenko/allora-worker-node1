@@ -108,15 +108,6 @@ cat <<EOF > config.json
         "InferenceEndpoint": "http://127.0.0.1:8000/inference/{Token}",
         "Token": "ETH"
       }
-    },
-      {
-        "topicId": 2, 
-        "inferenceEntrypointName": "api-worker-reputer",
-        "loopSeconds": 5,
-        "parameters": {
-          "InferenceEndpoint": "http://127.0.0.1:8000/inference/{Token}", // the specific endpoint providing inferences
-          "Token": "ETH" // The token specified in the endpoint
-        }
     }
   ]
 }
