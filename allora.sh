@@ -105,7 +105,7 @@ cat <<EOF > config.json
       "inferenceEntrypointName": "api-worker-reputer",
       "loopSeconds": 5,
       "parameters": {
-        "InferenceEndpoint": "http://localhost:8000/inference/{Token}",
+        "InferenceEndpoint": "http://127.0.0.1:8000/inference/{Token}",
         "Token": "ETH"
       }
     }
